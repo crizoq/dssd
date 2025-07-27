@@ -29,9 +29,9 @@ class Settings:
         option = input(Fore.MAGENTA + ' > ' + Fore.GREEN)
 
         if option == '0':
-            from beast import BeastBomber
-            beast = BeastBomber()
-            beast.main()
+            from crizoq import crizoqbomber
+            crizoq = crizoqbomber()
+            crizoq.main()
 
         elif option == '1':
             update_proxies()
@@ -95,6 +95,6 @@ class Settings:
             self.settings_main()
 
         else:
-            from beast import BeastBomber
-            beast = BeastBomber()
-            beast.ex()
+            from crizoq import crizoqbomber
+            crizoq = crizoqbomber()
+            crizoq.ex()
