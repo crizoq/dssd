@@ -39,30 +39,30 @@ class BeastBomber:
 
             if self.lang == 'ru':
                 text = """
-        Спасибо за использование Beast bomber!
+        Спасибо за использование crizoq bomber!
 Автор будет благодарен, если Вы поставите звезду на GitHub:
-        https://github.com/ebankoff/BeastBomber
+        https://github.com/ebankoff/crizoqbomber
               Copyright (C) 2023 un1cum """
             else:
                 text = """
-            Thanks for using Beast bomber!
+            Thanks for using crizoq bomber!
 The author would appreciate it if you would put a star on 
               this repository on GitHub:
-        https://github.com/ebankoff/BeastBomber
+        https://github.com/ebankoff/crizoqbomber
               Copyright (C) 2023 un1cum """
 
             print(fade.purplepink(text))
             os.abort()
 
         elif option == 'no':
-            BeastBomber().main()
+            crizoqbomber().main()
 
         else:
             self.ex()
 
     def main(self):
         if platform == 'win32':
-            ctypes.windll.kernel32.SetConsoleTitleW("Beast bomber 💣")
+            ctypes.windll.kernel32.SetConsoleTitleW("crizoq bomber 💣")
 
         if platform == 'win32':
             os.system("cls")
@@ -183,4 +183,4 @@ The author would appreciate it if you would put a star on
 
 
 if __name__ == "__main__":
-    BeastBomber().main()
+    crizoqbomber().main()
